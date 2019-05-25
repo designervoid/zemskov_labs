@@ -6,6 +6,8 @@ b = np.array([5.06, 4.75, -1.05])
 Ab = np.hstack([A, b.reshape(-1, 1)])
 
 n = len(b)
+values_new = np.zeros(3)
+iter = 0
 
 for i in range(n):
     a = Ab[i]
@@ -24,5 +26,20 @@ for i in range(n - 1, -1, -1):
         m = a[i] / b[i]
         Ab[j] = a - m * b
 
+    max_d = abs(a[0] - values_new[0])
+    for i in range(3):
+        if abs(a[i] - values_new[i]) > max_d:
+            max_d = abs(a[i] - values_new[i])
+    iter +=1
+    if max_d > 0.01:
+        print(Ab)
+        print(iter)
+
 x = Ab[:, 3]
 print(x)
+
+
+#check solution
+x_new = np.linalg.solve(A, b)
+print(f'right solution: {x_new}')
+print('solution right?', np.allclose(np.dot(A, x), b))

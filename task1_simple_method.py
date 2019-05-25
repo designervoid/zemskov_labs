@@ -1,16 +1,17 @@
-import numpy
+import numpy as np
 
-matrix = numpy.array([[3.21, -2.25, 2.13, 5.06],
+matrix = np.array([[3.21, -2.25, 2.13, 5.06],
                       [7.09, 9.17, -1.23, 4.75],
                       [0.43, -1.40, -4.62, -1.05]])
 
-values = numpy.zeros(3)
+
+values = np.zeros(3)
 
 ITER = 0
 
 def SimpleIter(values, ITER):
 
-    values_new = numpy.zeros(3)
+    values_new = np.zeros(3)
 
     for i in range(3):
         values_new[i] += matrix[i][3]
@@ -34,3 +35,16 @@ def SimpleIter(values, ITER):
 
 
 SimpleIter(values, ITER)
+
+# check solution
+A = np.array([[3.21, -2.25, 2.13],
+              [7.09, 9.17, -1.23],
+              [0.43, -1.40, -4.62]])
+
+b = np.array([5.06,
+               4.75,
+               -1.05])
+
+x = np.linalg.solve(A, b)
+print(f'right solution: {x}')
+print('solution right?', np.allclose(np.dot(A, x), b))
