@@ -1,71 +1,40 @@
 import numpy as np
+from numba import jit, f8
 
-# [ 1.2907416   0.08824191 -1.22838018 -0.63658135]
 
-A = np.array([[8., 2., 0., 0.],
-              [1., 6., -3., 0.],
-              [0., 2., -10., -4.],
-              [0., 0., -3., -6.]])
+## Tri Diagonal Matrix Algorithm(a.k.a Thomas algorithm) solver
+@jit(f8[:](f8[:], f8[:], f8[:], f8[:]))
+def TDMAsolver(a, b, c, d):
+    '''
+    TDMA solver, a b c d can be NumPy array type or Python list type.
+    refer to http://en.wikipedia.org/wiki/Tridiagonal_matrix_algorithm
+    and to http://www.cfd-online.com/Wiki/Tridiagonal_matrix_algorithm_-_TDMA_(Thomas_algorithm)
+    '''
+    nf = len(d)  # number of equations
+    ac, bc, cc, dc = map(np.array, (a, b, c, d))  # copy arrays
+    for it in range(1, nf):
+        mc = ac[it - 1] / bc[it - 1]
+        bc[it] = bc[it] - mc * cc[it - 1]
+        dc[it] = dc[it] - mc * dc[it - 1]
 
-b = np.array([10.5,
-               5.5,
-               15.0,
-               7.5])
+    xc = bc
+    xc[-1] = dc[-1] / bc[-1]
 
-Ab = np.hstack([A, b.reshape(-1, 1)])
+    for il in range(nf - 2, -1, -1):
+        xc[il] = (dc[il] - cc[il] * xc[il + 1]) / bc[il]
 
-n = len(Ab)
+    return xc
 
-gamma = []
-alpha = []
-beta = []
 
-for i in range(n):
-    if i == 0:
-        print(f'iter {i + 1}')
-        # calculate
-        gamma_to_list = Ab[i][i]  # gamma1 = b1
-        alpha_to_list = -(Ab[i][i+1]) / gamma_to_list  # alpha1 = -c1/gamma1
-        beta_to_list = Ab[i][-1] / gamma_to_list  # beta1 = d1/y1
-        # add to list
-        gamma.append(gamma_to_list)
-        alpha.append(alpha_to_list)
-        beta.append(beta_to_list)
-        print(gamma[0], alpha[0], beta[0])
-    elif i == 1:
-        print(f'iter {i + 1}')
-        gamma_to_list = Ab[1][1] + Ab[1][0] * gamma[0]
-        alpha_to_list = -(Ab[0][0]) / gamma_to_list
-        beta_to_list = (Ab[1][-1] - Ab[1][0] * beta[0]) / gamma_to_list
-        gamma.append(gamma_to_list)
-        alpha.append(alpha_to_list)
-        beta.append(beta_to_list)
-        print(gamma[1], alpha[1], beta[1])
-    elif i == 2:
-        print(f'iter {i + 1}')
-        gamma_to_list = Ab[2][2] + Ab[2][1] * gamma[1]
-        alpha_to_list = -(Ab[1][1]) / gamma_to_list
-        beta_to_list = (Ab[2][-1] - Ab[2][1] * beta[1]) / gamma_to_list
-        gamma.append(gamma_to_list)
-        alpha.append(alpha_to_list)
-        beta.append(beta_to_list)
-        print(gamma[2], alpha[2], beta[2])
-    elif i == 3:
-        print(f'iter {i + 1}')
-        gamma_to_list = Ab[3][3] + Ab[3][2] * gamma[2]
-        beta_to_list = (Ab[3][-1] - Ab[3][2] * beta[2]) / gamma_to_list
-        gamma.append(gamma_to_list)
-        beta.append(beta_to_list)
-        print(gamma[3], beta[3])
-
-print(alpha, gamma, beta)
-print(f'x4 = beta4 = {beta[3]}')
-print(f'x3 = alpha3 * x4 + beta3 = {alpha[2] * beta[3] + beta[2] }')
-print(f'x2 = alpha2 * x3 + beta2 = {alpha[1] * beta[2] + beta[1] }')
-print(f'x3 = alpha1 * x2 + beta1 = {alpha[0] * beta[1] + beta[0] }')
-
-# check solution
-x = np.linalg.solve(A, b)
-print(f'right solution: {x}')
-print('solution right?', np.allclose(np.dot(A, x), b))
-
+a = np.array([-1., 2., -1.])
+b = np.array([5., 7., 11., 5.])
+c = np.array([-1., -2., -4])
+d = np.array([9., 5., 15., 10.])
+print(TDMAsolver(a, b, c, d))
+A = np.array([[5., -1., 0., 0.],
+              [-1., 7., -2., 0.],
+              [0., 2., 11., -4.],
+              [0., 0, -1, 5]], dtype=float)
+x = np.linalg.solve(A, d)
+print(f'Найдено верное решение с помощью numpy.linalg.solve => : {x}')
+print('Проверяем верное ли решение?', np.allclose(np.dot(A, x), d))
