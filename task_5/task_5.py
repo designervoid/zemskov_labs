@@ -21,12 +21,16 @@ def lagranz(x, y, t):
     return z
 
 
+def show_graph(xnew, ynew):
+    plt.plot(x, y, 'o', xnew, ynew)
+    plt.grid(True)
+    plt.legend(("F(x)", "Interpol F(x)"))
+    plt.show()
+
+
 xnew = np.linspace(np.min(x), np.max(x), 100)
 ynew = [lagranz(x, y, i) for i in xnew]
-plt.plot(x, y, 'o', xnew, ynew)
-plt.grid(True)
-plt.legend(("F(x)", "Interpol F(x)"))
-plt.show()
+show_graph(xnew, ynew)
 
 
 def product(val, n):

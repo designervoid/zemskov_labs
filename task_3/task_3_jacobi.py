@@ -3,6 +3,12 @@ import numpy as np
 from math import sqrt
 
 
+n = 10
+matrix = array([[50+3*n, 10-n, 3],
+               [10-n, 20+2*n, 10-n],
+               [3, 10-n, 90-n]])
+
+
 def jacobi(a, tol=1.0e-9):  # Jacobi method
 
     def maxElem(a):  # Find largest off-diag. element a[k,l]
@@ -57,15 +63,19 @@ def jacobi(a, tol=1.0e-9):  # Jacobi method
         if aMax < tol: return diagonal(a), p
         rotate(a, p, k, l)
 
-
     print('Jacobi method did not converge')
 
-n = 10
-matrix = array([[50+3*n, 10-n, 3],
-               [10-n, 20+2*n, 10-n],
-               [3, 10-n, 90-n]])
-solution = jacobi(matrix)
-print(f'Решение с помощью алгоритма => \nОтвет: {solution[0]} \nМатрица:\n {solution[1]}')
 
-x = np.linalg.eig(matrix)
-print(f'Найдено верное решение с помощью numpy.linalg.eig => : \nОтвет: {x[0]} \nМатрица:\n {x[1]}')
+def check_solution(matrix):
+    x = np.linalg.eig(matrix)
+    return x
+
+
+if __name__ == '__main__':
+    solution = jacobi(matrix)
+    print(f'Решение с помощью алгоритма => \nОтвет: [{solution[0][2], solution[0][1], solution[0][0]}] \nМатрица:\n {solution[1]}')
+    true_solution = check_solution(matrix)
+    print(f'Найдено верное решение с помощью numpy.linalg.eig => : \nОтвет: ({true_solution[0]}) \n'
+          f'Матрица:\n {true_solution[1]}')
+
+

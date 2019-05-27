@@ -2,26 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921853c6-7eba-417b-8dba-f492f3e1a2e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task_10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_jacobi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3_jacobi_ver2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_4_dihotomiya.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_4_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_4_method_newton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_4_simple_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_4_simple_method_ver2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_5_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_5_newton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_9_method_simpson.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3/task_3_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_8/task_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/for_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1_gauss_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1_gauss_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1_simple_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1_simple_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2_progon.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_2_progon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2_seidel.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_2_seidel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zemskov.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zemskov.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1_gauss_method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1_simple_method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2_progon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2_seidel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_jacobi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_jacobi_ver2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_4_dihotomiya.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_4_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_4_method_newton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_4_simple_method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_4_simple_method_ver2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_5_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_5_newton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_9_method_simpson.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,100 +34,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_4_method_newton.py">
+        <entry file="file://$PROJECT_DIR$/task_1/task1_simple_method.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_9/task_9_method_simpson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-395" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_4/task_4_dihotomiya.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_4_dihotomiya.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/for_tests.py">
+        <entry file="file://$PROJECT_DIR$/task_4/task_4_graph.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="41" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task_5_newton.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="82" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_5_graph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="6" selection-start-line="16" selection-end-line="18" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_4_simple_method.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_4_simple_method_ver2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_4_graph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -134,12 +66,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_7.py">
+        <entry file="file://$PROJECT_DIR$/task_4/task_4_method_newton.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state>
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_5/task_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_5/task_5_newton.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_7/task_7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_5/task_5_graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="21" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task_8/task_8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="82" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,8 +159,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/task1.py" />
-        <option value="$PROJECT_DIR$/task1_gauss_method.py" />
-        <option value="$PROJECT_DIR$/task1_simple_method.py" />
         <option value="$PROJECT_DIR$/task_2_seidel.py" />
         <option value="$PROJECT_DIR$/task_9_method_simpson.py" />
         <option value="$PROJECT_DIR$/task_3_jacobi_ver2.py" />
@@ -185,9 +173,24 @@
         <option value="$PROJECT_DIR$/task_7.py" />
         <option value="$PROJECT_DIR$/task_4_simple_method_ver2.py" />
         <option value="$PROJECT_DIR$/task_4_graph.py" />
-        <option value="$PROJECT_DIR$/task_4_dihotomiya.py" />
         <option value="$PROJECT_DIR$/for_tests.py" />
         <option value="$PROJECT_DIR$/task_5_newton.py" />
+        <option value="$PROJECT_DIR$/task_1_graph.py" />
+        <option value="$PROJECT_DIR$/task_1_graph_simple.py" />
+        <option value="$PROJECT_DIR$/task_4_dihotomiya.py" />
+        <option value="$PROJECT_DIR$/task1_simple_method.py" />
+        <option value="$PROJECT_DIR$/task1_gauss_method.py" />
+        <option value="$PROJECT_DIR$/task_1_graph_gauss.py" />
+        <option value="$PROJECT_DIR$/task_1/task_1_graph_gauss.py" />
+        <option value="$PROJECT_DIR$/task_1/task_1_graph_simple.py" />
+        <option value="$PROJECT_DIR$/task_2/task_2_progon.py" />
+        <option value="$PROJECT_DIR$/task_2/task_2_seidel.py" />
+        <option value="$PROJECT_DIR$/task_4/task_4_dihotomiya.py" />
+        <option value="$PROJECT_DIR$/task_4/task_4_simple_method.py" />
+        <option value="$PROJECT_DIR$/task_3/task_3_jacobi.py" />
+        <option value="$PROJECT_DIR$/task_3/task_3_graph.py" />
+        <option value="$PROJECT_DIR$/task_5/task_5.py" />
+        <option value="$PROJECT_DIR$/task_8/task_8.py" />
       </list>
     </option>
   </component>
@@ -205,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,15 +216,60 @@
               <item name="zemskov_labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="zemskov_labs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zemskov_labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zemskov_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="task_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zemskov_labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zemskov_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="task_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zemskov_labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zemskov_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="task_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zemskov_labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zemskov_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="task_4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zemskov_labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zemskov_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="task_5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zemskov_labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zemskov_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="task_7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zemskov_labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zemskov_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="task_8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zemskov_labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zemskov_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="task_9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zemskov_labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zemskov_labs" type="462c0819:PsiDirectoryNode" />
+              <item name="task_10" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -236,8 +285,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.for_tests">
-    <configuration name="for_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.task_8">
+    <configuration name="task_3_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="zemskov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,11 +294,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/for_tests.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_3/task_3_graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,7 +307,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_4_dihotomiya" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="task_3_jacobi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="zemskov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,11 +315,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_4_dihotomiya.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_3/task_3_jacobi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,7 +328,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_4_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="task_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="zemskov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,11 +336,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_4_graph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_5/task_5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,7 +349,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_4_method_newton" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="task_5_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="zemskov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,11 +357,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_4_method_newton.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_5/task_5_graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,7 +370,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_4_simple_method_ver2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="task_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="zemskov" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,11 +378,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_4_simple_method_ver2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_8/task_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -344,11 +393,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.for_tests" />
-        <item itemvalue="Python.task_4_simple_method_ver2" />
-        <item itemvalue="Python.task_4_method_newton" />
-        <item itemvalue="Python.task_4_dihotomiya" />
-        <item itemvalue="Python.task_4_graph" />
+        <item itemvalue="Python.task_8" />
+        <item itemvalue="Python.task_5_graph" />
+        <item itemvalue="Python.task_5" />
+        <item itemvalue="Python.task_3_jacobi" />
+        <item itemvalue="Python.task_3_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -366,15 +415,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="23" width="1396" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17236364" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17213115" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44713375" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44708425" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987261" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,192 +436,204 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/task1_gauss_method.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/task1_gauss_method.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../PycharmProjects/zemskov_labs/python3_venv/lib/python3.7/site-packages/scipy/integrate/_ode.py">
+    <entry file="file://$PROJECT_DIR$/../PycharmProjects/zemskov_labs/python3_venv/lib/python3.7/site-packages/scipy/integrate/_ode.py" />
+    <entry file="file://$PROJECT_DIR$/for_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="1176" selection-start-line="1176" selection-end-line="1176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_9_method_simpson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task1_gauss_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="455">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_plots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        <state>
+          <caret selection-end-line="33" selection-end-column="10" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_10.py">
+    <entry file="file://$PROJECT_DIR$/task_7.py" />
+    <entry file="file://$PROJECT_DIR$/task_9_method_simpson.py" />
+    <entry file="file://$PROJECT_DIR$/task_10.py" />
+    <entry file="file://$PROJECT_DIR$/task_2_progon.py" />
+    <entry file="file://$PROJECT_DIR$/task_2_seidel.py" />
+    <entry file="file://$PROJECT_DIR$/task_3_jacobi.py" />
+    <entry file="file://$PROJECT_DIR$/task_3_jacobi_ver2.py" />
+    <entry file="file://$PROJECT_DIR$/task_4_dihotomiya.py" />
+    <entry file="file://$PROJECT_DIR$/task_4_graph.py" />
+    <entry file="file://$PROJECT_DIR$/task_4_method_newton.py" />
+    <entry file="file://$PROJECT_DIR$/task_4_simple_method.py" />
+    <entry file="file://$PROJECT_DIR$/task_4_simple_method_ver2.py" />
+    <entry file="file://$PROJECT_DIR$/task_5.py" />
+    <entry file="file://$PROJECT_DIR$/task_5_graph.py" />
+    <entry file="file://$PROJECT_DIR$/task_5_newton.py" />
+    <entry file="file://$PROJECT_DIR$/task1_simple_method.py" />
+    <entry file="file://$PROJECT_DIR$/task1_gauss_method.py" />
+    <entry file="file://$PROJECT_DIR$/task_1_graph_simple.py" />
+    <entry file="file://$PROJECT_DIR$/task_1_graph_gauss.py" />
+    <entry file="file://$PROJECT_DIR$/task_1/task_1_graph_simple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        <state relative-caret-position="235">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task1_simple_method.py">
+    <entry file="file://$PROJECT_DIR$/task_2/task_2_progon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="46" selection-start-line="46" selection-end-line="48" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_2_progon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="325">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_2_seidel.py">
+    <entry file="file://$PROJECT_DIR$/task_2/task_2_seidel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="325">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_3_jacobi_ver2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/task_3/task_3_jacobi_ver2.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_3_jacobi.py">
+    <entry file="file://$PROJECT_DIR$/task_4/task_4_simple_method.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="67" column="74" selection-start-line="67" selection-start-column="74" selection-end-line="67" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_4_simple_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="400">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_4_method_newton.py">
+    <entry file="file://$PROJECT_DIR$/task_1/task_1_graph_gauss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_3/task_1_graph_gauss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_3/task_3_jacobi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        <state relative-caret-position="45">
+          <caret line="5" selection-start-line="5" selection-end-line="8" selection-end-column="32" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_4_simple_method_ver2.py">
+    <entry file="file://$PROJECT_DIR$/task_3/task_3_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_5_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" selection-start-line="16" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="540">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_4_graph.py">
+    <entry file="file://$PROJECT_DIR$/task_1/task1_gauss_method.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_1/task_1_graph_gauss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state>
+          <caret selection-end-line="44" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_4/task_4_dihotomiya.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_4/task_4_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_4_dihotomiya.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_tests.py">
+    <entry file="file://$PROJECT_DIR$/task_4/task_4_method_newton.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="41" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_5_newton.py">
+    <entry file="file://$PROJECT_DIR$/task_1/task1_simple_method.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_5/task_5_newton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state>
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_7/task_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_5/task_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_5/task_5_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_9/task_9_method_simpson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_8/task_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

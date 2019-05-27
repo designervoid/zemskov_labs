@@ -2,7 +2,7 @@ import numpy as np
 
 epsilon = 0.01
 
-
+'''
 def func(x):
     return x*x + 4*np.sin(x)
 
@@ -28,6 +28,8 @@ def bisection(a, b):
 if __name__ == '__main__':
     a, b = -10, 10
     bisection(a, b)
+
+'''
 
 
 def f(x):
@@ -75,6 +77,7 @@ def solve(func, x = 0.0, step=0.01, prec = 0.01):
             x += step
     return x
 
+
 f = lambda x: x*x + 4*np.sin(x)
 print(solve(f))
 
@@ -98,7 +101,7 @@ def bisection_method(f, a, b, tol):
                 a = midpoint
 
             iter += 1
-        return (midpoint, iter)
+        return midpoint, iter
 
 
 answer, iterations = bisection_method(root11, -1, 1, 0.01)
